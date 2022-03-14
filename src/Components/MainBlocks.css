@@ -1,0 +1,62 @@
+.block {
+    border-top: 3px solid;
+    max-width: 37%;
+    height: 110px;
+    width: 6.8rem;
+    text-align: center;
+    background-color: hsl(227, 47%, 96%);
+    border-radius: 6%;
+    padding: 1.3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin: 0px 10px;
+  }
+
+  .logo {
+    vertical-align: middle;
+  }
+
+  
+.number {
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 15px;
+  }
+  
+  .follow {
+    color: hsl(228, 12%, 44%);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  .facebook {
+    border-color: hsl(208, 92%, 53%);
+  }
+  .last {
+    color: hsl(163, 72%, 41%);
+    font-weight: 600;
+    padding-top: 15px;
+  }
+
+  .invalid .block{
+    background-color: hsl(228, 28%, 20%);
+      }
+
+      @media (max-width:839px) {
+        .block{
+          height: 110px;
+          width: 6.8rem;
+          padding: 1.3rem;
+          padding-left: 1rem;
+          padding-right: 1rem;
+          margin: 0px 10px;
+        }
+      }
+
+      @media (max-width:475px) {
+        .block{
+          margin: 10px 0px;
+          min-width: 11rem;
+        }
+        
+      }
