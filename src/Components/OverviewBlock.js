@@ -4,12 +4,12 @@ function OverviewBlock(props){
         <div className="block2">
         <div className="flexy">
           <div className="view">{props.state}</div>
-          <img src="images/icon-facebook.svg" alt=""/>
+          <img src={props.icon} alt=""/>
         </div>
         <div className="flexy">
           <div className="digit solid">{props.like}</div>
-          <div className="percent">
-            <img src="images/icon-up.svg" alt="" />
+          <div className= {props.arrow==='down'?"yt":"percent"}>
+            <img src={`../images/icon-${props.arrow}.svg`}  alt="" />
             {props.today}
           </div>
         </div>

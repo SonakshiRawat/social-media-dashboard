@@ -61,6 +61,7 @@
     left: 1px;
     bottom: 1px;
     background-color: black;
+    /* background-color: white; */
     transition: 0.4sec;
     border-radius: 50px;
   }
@@ -68,6 +69,7 @@
   input:checked + .slider::before {
     transform: translateX(23px);
     background-color: white;
+    /* background-color: black; */
   }
 
   p,.dark {
@@ -83,16 +85,28 @@
     left: -20px;
   }
 
-  @media (max-width:475px) {
+  @media (max-width:580px) {
     .solid {
       font-size: 18px;
     }
     .section1{
       flex-direction: column;
     align-items: flex-start;
-
+    width: 300px;
+margin: auto;
     }
+  
     .dark{
-      justify-content: space-between;
+      width: 100%;
+      justify-content:space-between;
+      margin-top: 20px;
+
+  }
+  }
+
+  @media (max-width:375px) {
+    .section1{
+width: 250px;
+margin: auto;
     }
   }

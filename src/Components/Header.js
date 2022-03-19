@@ -4,9 +4,9 @@ const Header = (props) => {
   const [isValid,setIsValid]=useState(true);
 
   const modeChanger=()=>{
+  props.func(isValid);
     setIsValid(!isValid);
   }
-  props.func(isValid);
     return (
       <div className="section1 ">
         <div className="social">

@@ -2,7 +2,8 @@
     border-top: 3px solid;
     max-width: 37%;
     height: 110px;
-    width: 6.8rem;
+    /* width: 8.4rem; */
+    width: 12%;
     text-align: center;
     background-color: hsl(227, 47%, 96%);
     border-radius: 6%;
@@ -14,11 +15,12 @@
 
   .logo {
     vertical-align: middle;
+    margin-right: 5px;
   }
 
   
 .number {
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 700;
     margin-top: 15px;
   }
@@ -27,6 +29,7 @@
     color: hsl(228, 12%, 44%);
     text-transform: uppercase;
     letter-spacing: 2px;
+    font-size: 14px;
   }
   
   .facebook {
@@ -42,10 +45,10 @@
     background-color: hsl(228, 28%, 20%);
       }
 
-      @media (max-width:839px) {
+      @media (max-width:1075px) {
         .block{
           height: 110px;
-          width: 6.8rem;
+          width: 15%;
           padding: 1.3rem;
           padding-left: 1rem;
           padding-right: 1rem;
@@ -53,7 +56,40 @@
         }
       }
 
-      @media (max-width:475px) {
+      @media (max-width:1075px) {
+        .block{
+          height: 110px;
+          width: 15%;
+          padding: 1.3rem;
+          padding-left: 0.7rem;
+          padding-right: 0.7rem;
+          margin: 0px 10px;
+        }
+
+        .number {
+          font-size: 30px;
+        }
+        
+        .follow {
+          letter-spacing: 1px;
+          font-size: 12px;
+        }
+        
+    
+        .last {
+
+          font-size: 12px;
+        }
+      }
+      @media (max-width:580px) {
+        .block{
+          margin: 10px 0px;
+          min-width: 14rem;
+        }
+        
+      }
+
+      @media (max-width:375px) {
         .block{
           margin: 10px 0px;
           min-width: 11rem;

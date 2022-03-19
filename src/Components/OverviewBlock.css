@@ -2,8 +2,7 @@
 
 .block2 {
     max-width: 37%;
-    width: 10rem;
-    width: 20%;
+    width: 18%;
     height:4.5rem;
     background-color: hsl(227, 47%, 96%);
     border-radius: 6%;
@@ -11,7 +10,12 @@
     margin: 0px 8px;
     margin-bottom: 10px;
   }
-
+  .yt {
+    color: hsl(356, 69%, 56%);
+    font-weight: 600;
+    padding-top: 15px;
+  }
+  
   .flexy {
     display: flex;
     flex-direction: row;
@@ -27,7 +31,7 @@
   
   .digit {
     color: hsl(230, 17%, 14%);
-    font-size: 30px;
+    font-size: 27px;
     font-weight: 700;
   }
   .percent {
@@ -40,27 +44,43 @@
 background-color: hsl(228, 28%, 20%);
   }
 
-  @media (max-width:779px) {
-    /* .block{
-    height:4.5rem;
-    padding: 1px 10px;
-    margin: 0px 8px;
+  @media (max-width:737px) {
+    .block2{
+      width:5.7rem;
+    padding: 1px 4px;
     margin-bottom: 10px;
-    } */
-
- 
+    }
+    .view {
+      font-size: 13px;
+    }
+    .percent,.yt {
+  font-size: 13px;
+      padding-left: 6px;
+    }
     
     .digit {
       color: hsl(230, 17%, 14%);
-      font-size: 25px;
+      font-size: 20px;
       font-weight: 700;
     }
   }
+  @media (max-width:650px) {
+    .block2{
+      width:15rem;
+    }
 
-  @media (max-width:475px) {
+  }
+  @media (max-width:580px) {
 .block2{
  
-   min-width: 12rem;
+   min-width: 15rem;
 
 }
   }
+  @media (max-width:375px) {
+    .block2{
+     
+       min-width: 12rem;
+    
+    }
+      }

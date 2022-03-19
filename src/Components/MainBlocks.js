@@ -6,7 +6,7 @@ function MainBlocks(props){
         <img src={props.icon} alt="" className="logo" /><span>{props.user}</span>
         <div className="number solid">{props.like}</div>
         <div className="follow">Followers</div>
-        <div className="last"><img src={props.arrow} alt=""/>{props.today} Today</div>
+        <div className= {props.arrow==='down'?"yt":"last"}><img src={`../images/icon-${props.arrow}.svg`} alt=""/>{props.today} Today</div>
       </div>
     )
 }
